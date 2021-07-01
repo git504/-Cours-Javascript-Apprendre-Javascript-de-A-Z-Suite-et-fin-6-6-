@@ -24,3 +24,7 @@ function draw() {
   ctx.fill();
 }
 window.addEventListener("load", draw);
+
+//------------
+// TRY / CATCH
+//----------
