@@ -2,7 +2,7 @@
 //   return a + b;
 // }
 
-function addNum(a, b) {
+export function addNum(a, b) {
   return a + b;
 }
 
