@@ -58,3 +58,26 @@ try {
 } finally {
   // console.log("on est arrivé au bout !");
 }
+
+// Throw
+function isNumber(num) {
+  if (isNaN(num)) {
+    throw "Not a number !";
+  } else {
+    console.log("C'est un nombre");
+  }
+  // PLEIN DE CODE
+}
+
+try {
+  isNumber("1");
+} catch (err) {
+  console.log(err);
+}
+
+//------------
+// Strict mode
+//------------
+
+// voiture = "Toyota";
+// console.log(voiture);
